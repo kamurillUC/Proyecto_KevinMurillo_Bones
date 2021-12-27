@@ -7,12 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public nombre = '';
-  public apellido = '';
-  public edad = 0;
-  public fechaNacimiento = new Date().toLocaleDateString(); 
-  public genero = '';
-
+  title = 'services';  
  
 }
 
